@@ -1,8 +1,48 @@
 
-body{
-    font-family: 'Outfit', sans-serif;
+:root {
+    --color-slate-300: hsl(212, 45%, 89%);
+    --background-color: hsl(216, 15%, 48%);
+    --color-slate-500:: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+    --font-color: hsl(228, 45%, 44%);
 }
 
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--background-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: var(--color-slate-300);
+    
+    height: 500px;
+    width: 300px;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+
+}
+
+.container img {
+    
+    width: 260px;
+    height: 260px;
+    border-radius: 0.5rem;
+    margin: 20px;
+}
+
+.container h2{
+    text-align: center;
+}
 .attribution { 
     
     font-size: 1rem; 
@@ -10,5 +50,12 @@ body{
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: var(--font-color);
+ }
+
+ footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-slate-300);
+    width: 100%;
  }
