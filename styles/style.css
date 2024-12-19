@@ -5,8 +5,7 @@
     --color-slate-900: hsl(218, 44%, 22%);
 
     --card-width: 300px;
- 
-    --border-radius: 24px;
+    --card-border-radius: 24px;
 
     --font-size-regular: 15px;
     --font-size-big: 22px;
@@ -14,11 +13,11 @@
     --line-spacing-title: 1.2;
     --line-spacing-content: 1.4;
 
-    --letter-spacing-regular: 0.2px;
-    --letter-spacing-big: 0px;
+    --letter-spacing-content: 0.2px;
+    --letter-spacing-title: 0px;
 
-    --font-weight-regular: 400;
-    --font-weight-big: 700;
+    --font-weight-content: 400;
+    --font-weight-title: 700;
 
     --spacing-500: 40px;
     --spacing-300: 24px;
@@ -44,7 +43,7 @@ body{
     margin-top: auto;
     height: auto;
     width: var(--card-width);
-    border-radius: var(--border-radius);
+    border-radius: var(--card-border-radius);
     padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
 
     display: flex;
@@ -56,16 +55,16 @@ body{
 .qr-code {
     width: var(--card-width);
     height: var(--card-width);
-    border-radius: calc(var(--border-radius)/2);
+    border-radius: calc(var(--card-border-radius)/2);
 }
 
  .par-regular-regular{
     text-align: center;
     color: var(--color-slate-500);
     font-size: var(--font-size-regular);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-content);
     text-align: center;
-    letter-spacing: var(--letter-spacing-regular);
+    letter-spacing: var(--letter-spacing-content);
     line-height: var(--line-spacing-content);
     margin: 0px var(--spacing-300) 0px var(--spacing-300);
  }
@@ -74,8 +73,8 @@ body{
     text-align: center;
     color: var(--color-slate-900);
     font-size: var(--font-size-big);
-    font-weight: var(--font-weight-big);
-    letter-spacing: var(--letter-spacing-big);
+    font-weight: var(--font-weight-title);
+    letter-spacing: var(--letter-spacing-title);
     line-height: var(--line-spacing-title);
     margin: var(--spacing-300) var(--spacing-300) var(--spacing-200) var(--spacing-300);
 }
@@ -90,8 +89,8 @@ body{
     color: var(--color-slate-500);
     text-align: center; 
     font-size: var(--font-size-regular);
-    font-weight: var(--font-weight-regular);
-    letter-spacing: var(--letter-spacing-regular);
+    font-weight: var(--font-weight-content);
+    letter-spacing: var(--letter-spacing-content);
     line-height: var(--line-spacing-content);
 }
 
