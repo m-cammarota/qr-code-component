@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -55,6 +56,9 @@ I learned how to create a component by following a style-guide.
     border-radius: calc(var(--card-border-radius)/2);
 }
 ```
+### Continued development
+
+I would like to learn how to use figma to understand the guidelines more quickly.
 
 ### Useful resources
 - [W3Schools](https://www.w3schools.com/css/default.asp) - Learn and practice.
