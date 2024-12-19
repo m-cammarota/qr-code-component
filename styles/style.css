@@ -69,7 +69,7 @@ body{
     margin: 0px var(--spacing-200) 0px var(--spacing-200);
  }
 
- .par-big-bold{
+ .h1-text{
     text-align: center;
     color: var(--color-slate-900);
     font-size: var(--font-size-big);
