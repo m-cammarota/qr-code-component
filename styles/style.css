@@ -46,7 +46,8 @@ body{
     width: var(--card-width);
     border-radius: var(--card-border-radius);
     padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
-    
+    box-shadow: 0px var(--spacing-200) var(--spacing-200) rgba(0, 0, 0, 0.1);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
