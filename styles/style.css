@@ -4,7 +4,7 @@
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-900: hsl(218, 44%, 22%);
 
-    --card-width: 300px;
+    --card-width: 288px;
     --card-border-radius: 24px;
 
     --font-size-regular: 15px;
@@ -66,7 +66,7 @@ body{
     text-align: center;
     letter-spacing: var(--letter-spacing-content);
     line-height: var(--line-spacing-content);
-    margin: 0px var(--spacing-300) 0px var(--spacing-300);
+    margin: 0px var(--spacing-200) 0px var(--spacing-200);
  }
 
  .par-big-bold{
@@ -76,7 +76,7 @@ body{
     font-weight: var(--font-weight-title);
     letter-spacing: var(--letter-spacing-title);
     line-height: var(--line-spacing-title);
-    margin: var(--spacing-300) var(--spacing-300) var(--spacing-200) var(--spacing-300);
+    margin: var(--spacing-300) var(--spacing-200) var(--spacing-200) var(--spacing-200);
 }
 
 .card-link{
