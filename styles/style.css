@@ -40,7 +40,6 @@ body{
 
 .container {
     background-color: white;
-    margin-top: auto;
     height: auto;
     width: var(--card-width);
     border-radius: var(--card-border-radius);
