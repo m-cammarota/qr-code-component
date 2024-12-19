@@ -1,4 +1,4 @@
-nter
+
 :root {
     --color-slate-300: hsl(212, 45%, 89%);
     --color-slate-500: hsl(216, 15%, 48%);
@@ -48,7 +48,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-center;
+    justify-content: center;
 }
 
 .qr-code {
@@ -69,7 +69,7 @@ body{
  }
 
  .h1-text{
-    text-align: center;
+    text-align:end;
     color: var(--color-slate-900);
     font-size: var(--font-size-big);
     font-weight: var(--font-weight-title);
